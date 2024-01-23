@@ -1,0 +1,49 @@
+body {
+    background-color: #000000ed;
+}
+
+.pageTitle {
+    margin-top: 6rem;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.labelName {
+    color: #46C2FF;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.inputBox {
+    margin-bottom: 1rem;
+    background-color: #4d4d4d42;
+    color: orange;
+    border-style: solid;
+    border-color: #14c5ff;
+    border-width: thin;
+}
+
+button {
+    background-color: #000000;
+    color: #46C2FF;
+    outline-style: solid;
+    outline-width: 0.1rem;
+    outline-color: #46C2FF;
+}
+
+button:hover {
+    background-color: orange;
+    color: black
+}
+
+.backgroundImg {
+    width: 20rem;
+    bottom: 0rem;
+    left: 0rem;
+    position: absolute;
+    opacity: 0.3;
+}

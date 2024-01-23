@@ -1,0 +1,80 @@
+.containerVideo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.containerVideo video {
+    height: 100%;
+    width: 100%;
+}
+
+.containerCard {
+    background-color: rgb(93 90 90 / 15%);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px -2px 0px 0px #46C2FF;
+}
+
+.containerVideoBB {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerVideoBB video {
+    width: 314px;
+    height: 200px;
+}
+
+@media(min-width: 768px) {
+    .containerVideo{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .containerVideo video {
+        height: 101%;
+        width: 88%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width: 1024px) {
+    .containerVideo{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .containerVideo video {
+        height: 101%;
+        width: 50%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .mainText{
+        display: flex;
+    }
+
+    .containerCard{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+}
